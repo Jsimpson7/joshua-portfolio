@@ -3,10 +3,10 @@ import Link from "next/link";
 import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
 
 const socials = [
-  { icon: <FaGithub />, path: "" },
+    { icon: <FaGithub />, path: "https://github.com/Jsimpson7" },
   { icon: <FaLinkedinIn />, path: "" },
   { icon: <FaYoutube />, path: "" },
-  { icon: <FaTwitter />, path: "" },
+    { icon: <FaTwitter />, path: "https://x.com/JoshuaSimpsonn_" },
 ];
 
 const Social = ({ containerStyles, iconStyles }) => {

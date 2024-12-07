@@ -22,38 +22,50 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "Numerical Integration",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
+      "This project is designed to implement a Riemann sum approximation for calculating integrals over specified intervals using various points of approximation, such as left-hand endpoint, right-hand endpoint, and midpoint. This project helps in understanding and modeling the practical application of integration in different scenarios, such as data transfer over a network or the calculation of area under curves.",
+    stack: [{ name: "Python" }],
+    image: "/assets/work/1633003175693.png",
     live: "",
-    github: "",
+    github: "https://github.com/Jsimpson7/numerical-Integration/blob/main/ProjectNumericalIntegration/project8.py",
   },
   {
     num: "02",
-    category: "fullstack",
+    category: "Simulation and Visualization of the Lorenz System",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-    image: "/assets/work/thumb2.png",
+      "The code we're talking about creates a simulation and visualization of the Lorenz system, which was introduced by Edward Lorenz in 1963. This system is made up of three linked nonlinear equations that change over time and is known for showing chaotic behaviors under certain conditions.",
+    stack: [{ name: "Python" }],
+    image: "/assets/work/lorenz2.png",
     live: "",
-    github: "",
+    github: "https://github.com/Jsimpson7/simulation-and-visualization-of-the-Lorenz-system/blob/main/Projct%205/Project5JoshS.py",
   },
   {
     num: "03",
-    category: "frontend",
+    category: "Command Line Interpreter",
     title: "project 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb3.png",
+      "This C++ program functions as a command-line interpreter designed to enhance user interaction with Linux systems. It allows for direct execution of commands and supports batch command processing, which can be delineated using semicolons. ",
+    stack: [{ name: "C++" }, { name: "Linux" }],
+    image: "/assets/work/pexels-pixabay-207580.jpg",
     live: "",
-    github: "",
-  },
+    github: "https://github.com/Jsimpson7/commandlineinterpreter/blob/main/project6/CommandLineInterpreterJS.cpp",
+    },
+    {
+     num: "04",
+     category: "Simulation and Visualization of the Lorenz System",
+     title: "project 4",
+     description:
+            "A playful Python project showcasing a simulated virus and a scanner to explore basic cybersecurity concepts and file manipulation." ,
+     stack: [{ name: "Python" }],
+        image: "/assets/work/virustotal_api_python-750x375.png",
+     live: "",
+        github: "https://github.com/Jsimpson7/Pythonvirus",
+    },
 ];
+
 
 const Work = () => {
   const [project, setProject] = useState(projects[0]);

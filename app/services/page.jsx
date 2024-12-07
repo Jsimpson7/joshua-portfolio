@@ -8,28 +8,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "I create dynamic and responsive websites and web applications. With expertise in front-end technologies like HTML, CSS, JavaScript, and frameworks such as React and Next.js, I build seamless and user-friendly web experiences that meet modern standards and client requirements.",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Computational Scientist",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      " I develop and apply mathematical models and computational techniques to solve complex scientific and engineering problems. ",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Game Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "I specialize in designing, developing, and deploying engaging and interactive video games. Utilizing tools like Unity and Unreal Engine, I create immersive experiences with a focus on gameplay mechanics, visual aesthetics, and user engagement.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Software Engineer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "I design, develop, and maintain software systems to solve complex problems and enhance user productivity. My expertise spans across multiple programming languages and software development methodologies, ensuring robust, scalable, and efficient solutions.",
     href: "",
   },
 ];
